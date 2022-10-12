@@ -1,0 +1,730 @@
+.featureBox .featureIcon{
+  
+    color: #7c4fe0 ;
+}
+.featureBox{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.featureBox .featureIcon{
+    margin-right: 20px;
+    width: 40px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.featureBox:hover .featureText h4{
+    
+    color: #7c4fe0 ;
+}
+.featureBox .featureText h4
+{margin-bottom: 15px !important;}
+h1,h2,h3,h4,h5,h6{
+    color: #111;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+
+
+  .featureBox .featureText p {
+    font-size: 16px;
+    line-height: 1.75;
+}
+p {
+    line-height: 1.75;
+    margin: 0 0 1.6em;
+    color: #666;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../img/parallex-1.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .parallaxOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.75);
+    width: 100%;
+    height: 100%;
+}
+.parallax .container {
+    position: relative;
+    z-index: 2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bi-play-circle-fill{
+    color: #7c4fe0;
+    border-radius: 50%;
+    font-size: 50px;
+
+}
+.bi-play-circle-fill:hover{
+    color: #fff;
+   
+    font-size: 50px;
+
+}
+
+.parallax h2{
+    color: white;
+}
+.service{
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+.tittle h3{
+    font-size: 2.25em;
+   
+}
+.tittle p{
+    font-size: 18px;
+    color: #999;
+   
+}
+.cardBox{
+    padding: 50px;
+    background-color: #fff;
+    color:#111;
+    border-radius: 6px;
+    transition: all .3s;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 20%);
+}
+.cardBox:hover{
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 20%);
+    transform: translateY(-5px);
+
+    background-color: #7c4fe0;
+    
+}
+.cardBox:hover h3 {
+  color: #fff;
+    
+}
+.cardBox:hover p {
+    color: #fff;
+      
+  }
+  .cardBox .iconBox {
+   margin-left: 120px;
+   margin-bottom: 20px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    line-height: 80px;
+    color: #fff;
+    background-color: #7c4fe0;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .3s;
+}
+.cardBox:hover .iconBox {
+   
+     color: #7c4fe0;
+     background-color: #fff;
+     
+    
+ }
+ .overview{
+    padding-top: 50px;
+ }
+ .overviewBox{
+    position: relative;
+    padding: 20px 30px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 6%);
+    border-radius: 6px;
+    transition: all .3s;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+ }
+
+ .overviewBox:hover{
+    transform: translateX(-5px);
+    background-color: #7c4fe0;
+    color: #fff;
+
+ }
+ .overviewBox:hover h6 {
+   
+    color: #fff;
+
+ }
+ .overviewBox:hover p{
+   
+    color: #fff;
+
+ }
+ .overviewBox .overviewBoxIcon{
+    margin-top: 5px;
+     margin-right: 20px;
+     text-align: center;
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+     font-size: 30px;
+     line-height: 61px;
+     color: #fff;
+     background-color: #7c4fe0;
+     text-align: center;
+     border-radius: 50%;
+     transition: all .3s;
+ 
+ } 
+ .overviewBox:hover .overviewBoxIcon{
+    color: #7c4fe0;
+    background-color: #fff;
+ }
+ .overviewBox .overviewBoxContent{
+    width: calc(100% - 60px);
+    padding-left: 20px;
+    transition: all .3s;
+ }
+ .overviewList ul {
+    list-style: none;
+  }
+  
+  .overviewList ul li:before {
+    content: '✓';
+    color: #7c4fe0 ;
+    position: absolute;
+    left: 120px;
+    
+  }
+  .overviewButton{
+    background-color: #7c4fe0;
+    color: #fff;
+    border: #7c4fe0;
+  }
+  .overviewButton:hover{
+    background-color: #5f36bb ;
+    border: #5f36bb;
+  }
+
+  .parallax1 {
+    /* The image used */
+    background-image: url("../img/parallex-2.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .parallax1Overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.75);
+    width: 100%;
+    height: 100%;
+}
+.parallax1 .container {
+    position: relative;
+    z-index: 2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+  .parallax1Box{
+    color: #fff;
+  }
+  .parallax1Box .icon{
+    position: relative;
+    display: block;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    margin: 10px 0 20px;
+    text-align: center;
+    cursor: default;
+  }
+  .parallax1Box h5 {
+    color: #fff;
+  }
+  .parallax1Box p {
+    color: #fff;
+  }
+  .fadeInUp{animation:fadeInUp 1s ease backwards;}
+@keyframes fadeInUp{
+  0%{transform:translate(0px, 100px); opacity: 0;}
+  100%{transform:translate(0px, 0); opacity: 1;}
+}
+  .member {
+    position: relative;
+    background-color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.member .member-pic {
+    position: relative;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.member:hover .member-pic img {
+    -webkit-transform: scale(1.12);
+    -moz-transform: scale(1.12);
+    transform: scale(1.12);
+}
+.member .member-pic img {
+    width: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.social{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border-radius: 3px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(10px);
+    background-color: rgba(124, 79, 224, 0.85);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.social-link{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%,);
+    color: #fff;
+}
+.social-link .card-link{
+    padding: 5px;
+    color: #fff;
+}
+.social-link .card-link:hover{
+    
+   color: #7c4fe0;
+}
+.member:hover .social{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.memberinfo .card-link{
+    color: #444;
+   text-decoration: none;
+    transition: .3s;
+}
+.memberinfo .card-link:hover{
+    color: #7c4fe0;
+}
+#home{
+    background-image: linear-gradient(tobottom right,);
+}
+.banner{
+    position: relative;
+    height: 800px;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    background: url(../img/front.jpg);
+   z-index: 5;
+}
+
+.banner:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+}
+.banner:before {
+    background: linear-gradient(-47deg, #7c4fe0 0%, #4528dc 100%);
+}
+
+
+.fig {
+    background-image: url(../img/front.jpg);
+    animation-delay: 0s;
+}
+
+#ReactBackgroundSlider > figure {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 10;
+    margin: 0;
+    backface-visibility: hidden;
+    animation: imageAnimation 100000.75s linear infinite -0.5s;
+}
+.banner .container{
+padding-top: 0!important;
+padding-bottom: 0!important;
+}
+#Home .container {
+    position: relative;
+    z-index: 2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.banner-image{
+   position: relative;
+   float: right;
+   
+}
+.bounce-effect{
+    animation: key1 .5s ease infinite alternate;
+}
+@keyframes key1{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-10px);}
+}
+
+ 
+.wave-effect {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 150px;
+    overflow: hidden;
+}
+.waves-shape.shape-one {
+    z-index: 15;
+    opacity: .5;
+}
+.waves-shape {
+    bottom: -1px;
+    width: 100%;
+    overflow: hidden;
+}
+.wave .waves-shape {
+    position: absolute;
+    height: 100%;
+}
+.wave {
+    left: 0;
+    width: 200%;
+    background-repeat: repeat-x;
+    background-position: 0 bottom;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+
+
+.wave-one {
+    background-image: url(../img/wave1.png);
+    background-size: 50% 100px;
+}
+  
+.waves-shape.shape-two {
+    z-index: 10;
+    opacity: .75;
+}
+.wave-two {
+    background-image: url(../img/wave2.png);
+    background-size: 50% 120px;
+}
+.wave-anim .wave-two {
+    -webkit-animation: move-wave 10s linear infinite;
+    animation: move-wave 10s linear infinite;
+}
+.waves-shape.shape-three {
+    z-index: 5;
+}
+.wave-three {
+    background-image: url(../img/wave3.png);
+    background-size: 50% 100px;
+}
+.wave-anim .wave-three {
+    -webkit-animation: move-wave 15s linear infinite;
+    animation: move-wave 15s linear infinite;
+}
+.homeBtn{
+    display: inline-block;
+    background: transparent;
+   border-color: white;
+    color: white;
+}
+.homeBtn:hover{
+    background-color: white;
+    color: #4528dc;
+    border: white;
+}
+.fadeInUp{animation:fadeInUp 1s ease backwards;}
+@keyframes fadeInUp{
+  0%{transform:translate(0px, 100px); opacity: 0;}
+  100%{transform:translate(0px, 0); opacity: 1;}
+}
+
+.header {
+    position: fixed;
+      z-index: 1000;
+      height: 70px;
+    width: 100%; 
+    background: transparent;
+      -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+
+.nav-link{
+  color: #fff !important;
+}
+.header.nav-link a.active {
+  color: #7c4fe0 !important;
+}
+
+.headeractive{
+  position: fixed;
+  z-index: 1000;
+  height: 70px;
+width: 100%; 
+  -webkit-transition: all ease-out .5s;
+-moz-transition: all ease-out .5s;
+-o-transition: all ease-out .5s;
+transition: all ease-out .5s;
+ background-color: #fff;
+}
+
+  
+.headeractive.nav-link a.active {
+    color: #7c4fe0 !important;
+  }
+
+  .headeractive .nav-link{
+  color: #000 !important;
+  }
+  
+  .headeractive .nav-link a:hover{
+    color: #7c4fe0 !important;
+  }
+  
+  
+.nav-link.underline-hover-effect {
+  text-decoration: none;
+  color: inherit;
+}
+
+.underline-hover-effect {
+  display: inline-block;
+  padding-bottom: 0.25rem; /* defines the space between text and underline */
+  position: relative;
+}
+
+.underline-hover-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #7c4fe0;
+  transition: width 0.25s ease-out;
+}
+.underline-hover-effect:hover::before {
+  width: 100%;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border: 10px !important;
+    border-radius: 10px !important;
+    background-color: #7c4fe0 !important;
+
+}
+.parallax3 {
+    /* The image used */
+    background-image: url("../img/parallex-3.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .parallax3Overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.75);
+    width: 100%;
+    height: 100%;
+}
+.parallax3 .container {
+    position: relative;
+    z-index: 2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.formBtn{
+    background-color: #7c4fe0;
+    border: #7c4fe0;
+}
+.formBtn:hover{
+    background-color: #5f36bb ;
+    border: #5f36bb;
+}
+.parallax3 .card-link{
+    text-decoration: none;
+    color: #7c4fe0;
+}
+#Blog{
+    background-color: "#f8f5f2";
+}
+.blog-post .card-title:hover{
+    color:#7c4fe0;
+    cursor: pointer;
+    }
+    .blog-post .card-link{
+    
+        color:#7c4fe0;
+        text-decoration: none;
+    }
+    .blog-post .card:hover .card-link{
+        color: #444;
+       
+    }
+    .blog-post .blog-type{
+        position: absolute;
+        display: block;
+        left: 20px;
+        top: 20px;
+        margin: 0;
+        color: #fff;
+        padding: 6px 8px;
+        font-size: 11px;
+        line-height: 11px;
+        font-weight: 600;
+        border-radius: 3px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background: rgba(0, 0, 0, 0.5);
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .blog-post .card:hover .blog-type{
+        background-color:#7c4fe0;
+        color: #fff;
+    
+    }
+    .blog-post .card {
+        position: relative;
+        background-color: #fff;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .blog-post .card .card-img-top {
+        position: relative;
+        background-color: #fff;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+    .blog-post .card:hover .card-img-top .card-img {
+        -webkit-transform: scale(1.12);
+        -moz-transform: scale(1.12);
+        transform: scale(1.12);
+    }
+    .blog-post .card .card-img-top .card-img {
+        width: 100%;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .blog-post .overlay{
+        
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0 auto;
+            border-radius: 3px;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(10px);
+            background-color: #444;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        
+    }
+    .blog-post .card:hover .overlay{
+        opacity: .25;
+        transform: translateY(0);
+    }
+    .blog-post .card{
+        background-color: #f8f5f2;
+    }
+    
+    #Contact{
+        background-color: #f8f5f2;
+    }
+    .conatctFormBtn{
+        background-color:  #7c4fe0;
+    }
+    .contactForm{
+        background-color: rgb(190, 186, 186);
+    }
+        .company .card-link{
+            color: #fff;
+        }
+        .company .card-link{
+            text-decoration: none;
+        }
+        .company .card-link:hover{
+            color: #7c4fe0;
+        }
+        body {
+            font-family: 'Poppins'!important;
+        }
+
+
+
+  
+
